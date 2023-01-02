@@ -1,5 +1,5 @@
 function myIpAdress(){
-    const myIp = "http://api.ipify.org/?format=json";
+    const myIp = "https://api.ipify.org/?format=json";
     const myIpAdd = fetch(myIp)
     myIpAdd
     .then((res)=>{
