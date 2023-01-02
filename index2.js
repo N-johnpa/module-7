@@ -36,7 +36,7 @@ async function info(ip) {
             console.log(str);
             document.getElementById("latData").innerHTML = ` Lat: ${lat_Data[1]}`
             document.getElementById("longData").innerHTML = ` ${lat_Data[0]}`
-             dispalyMap(lat_Data[0], lat_Data[1]);
+//              dispalyMap(lat_Data[0], lat_Data[1]);
         }
         document.getElementById("cityData").innerHTML = `City: ${fetchdata.city}`
         document.getElementById("regionData").innerHTML = `Region: ${fetchdata.region}`
@@ -51,7 +51,7 @@ async function info(ip) {
         var pin_Code = document.getElementById("pincodeData")
         pin_Code.innerHTML = `Pincode: ${fetchdata.postal}`
         postalData(pin_Code);
-//         dispalyMap(latData, longitudedata);
+        dispalyMap(latData, longitudedata);
     }
     catch (err) {
         console.log(err.message);
