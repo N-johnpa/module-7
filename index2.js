@@ -16,8 +16,8 @@ myIpAdress();
 
 
 async function info(ip) {
-    const latData = 17.4139;
-    const longitudedata = 78.5053;
+    const latData = 80.2785;
+    const longitudedata = 13.0878;
     const apiurl = `https://ipinfo.io/${ip}?token=6450138a3caad5`
     try {
         const response = await fetch(apiurl);
