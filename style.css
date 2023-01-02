@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.intro-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+#myIP {
+    position: absolute;
+    width: 800px;
+    height: 41px;
+    left: 41px;
+    top: 59px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.getDataBox {
+    position: absolute;
+    width: 303px;
+    height: 67px;
+    left: 41px;
+    top: 127px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.getData {
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 142px;
+    top: 146px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* Landing Page Css */
+
+.landingPage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+#landingIP {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 59px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+#latData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 41px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#longData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 41px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#cityData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 350px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#regionData {
+    position: absolute;
+    width: 450px;
+    height: 82px;
+    left: 350px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#OrganisationData {
+    position: absolute;
+    width: 650px;
+    height: 82px;
+    left: 620px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#HostnameData {
+    position: absolute;
+    width: 1167px;
+    height: 82px;
+    left: 620px;
+    top: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.map {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+#timezonedata {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 978px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#date {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1048px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#pincodeData {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1118px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#pincodeMess {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1188px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* Filter  */
+.filterBg {
+    position: absolute;
+    height: 85px;
+}
+
+.filterBox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 50px;
+    left: 41px;
+    top: 1322px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.filter {
+    position: absolute;
+    width: 176px;
+    height: 25px;
+    left: 25px;
+    top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* Postal Box */
+.postalbox1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 41px;
+    top: 1448px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#postal-name-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-branch-type-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-delivery-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 120px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-district-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 170px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-division-1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 220px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/* Postal 2 */
+
+.postalbox2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    left: 790px;
+    top: 1448px;
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#postal-name-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 20px;
+    /* top: 1484px; */
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-branch-type-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 70px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-delivery-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 120px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-district-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 170px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#postal-division-2 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    left: 20px;
+    top: 220px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #000000;
+}
