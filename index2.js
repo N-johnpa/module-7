@@ -50,7 +50,7 @@ async function info(ip) {
 
         var pin_Code = document.getElementById("pincodeData")
         pin_Code.innerHTML = `Pincode: ${fetchdata.postal}`
-        postalData(pin_Code);
+        postalData(pinCode);
         dispalyMap(latData, longitudedata);
     }
     catch (err) {
