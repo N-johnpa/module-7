@@ -36,7 +36,7 @@ async function info(ip) {
             console.log(str);
             document.getElementById("latData").innerHTML = ` Lat: ${lat_Data[1]}`
             document.getElementById("longData").innerHTML = ` ${lat_Data[0]}`
-             dispalyMap(lat_Data[0], lat_Data[1]);
+             dispalyMap(lat_Data[1], lat_Data[0]);
         }
         document.getElementById("cityData").innerHTML = `City: ${fetchdata.city}`
         document.getElementById("regionData").innerHTML = `Region: ${fetchdata.region}`
